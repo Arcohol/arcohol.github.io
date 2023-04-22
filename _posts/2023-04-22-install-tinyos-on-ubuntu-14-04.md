@@ -7,7 +7,7 @@ author:		Tiantian Li
 
 ## Prerequisites
 
-1. A fully functional virtual machine running on **Ubuntu 14.04.06** with **proper Internet connection.**
+1. A fully functional virtual machine running on **Ubuntu 14.04.06** with **proper Internet connection**.
 2. A clear mind.
 3. Basic Linux skills.
 
