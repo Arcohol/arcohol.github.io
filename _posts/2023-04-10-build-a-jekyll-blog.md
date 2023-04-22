@@ -1,7 +1,8 @@
 ---
-layout: post
-title:	Build a static blog with Jekyll and Github Pages
-categories: misc
+layout:		post
+title:		Build a static blog with Jekyll and Github Pages
+category:	misc
+author:		Tiantian Li
 ---
 
 Here are all you have to do to build a Jekyll blog. See? Simple.
