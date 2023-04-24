@@ -5,15 +5,17 @@ category:	misc
 author:		Tiantian Li
 ---
 
-## Prerequisites
+In this guide, a relatively old version of Ubuntu is used to demonstrate the installation process without having me to worry about historic issues. Good luck if you are going to use a modern Ubuntu or even another distro.
+
+## 1. Prerequisites
 
 1. A fully functional virtual machine running on **Ubuntu 14.04.06** with **proper Internet connection**.
 2. A clear mind.
 3. Basic Linux skills.
 
-## Installation
+## 2. Installation
 
-### 1. Set up Standford repository source
+### Set up Standford repository source
 
 Open `/etc/apt/sources.list` with root privilege:
 
@@ -29,7 +31,7 @@ deb http://tinyos.stanford.edu/tinyos/dists/ubuntu lucid main
 
 Save and exit.
 
-### 2. Install basic toolchains and TinyOS
+### Install basic toolchains and TinyOS
 
 Install required packages:
 
@@ -65,7 +67,7 @@ $ cd $TOSROOT/support/sdk/java
 $ sudo tos-install-jni
 ```
 
-## Compile TOSSIM for testing
+## 3. Compile TOSSIM for testing
 
 ```shell
 $ cd $TOSROOT/apps/Blink
