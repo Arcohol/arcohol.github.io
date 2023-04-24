@@ -63,7 +63,6 @@ $ sudo chown -R $USER:$USER $TOSROOT	# Recursively change the owner and group of
 If you don't want Java to later bitch about not finding appropriate JNI support:
 
 ```shell
-$ cd $TOSROOT/support/sdk/java
 $ sudo tos-install-jni
 ```
 
