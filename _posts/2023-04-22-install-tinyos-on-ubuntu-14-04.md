@@ -1,19 +1,19 @@
 ---
-layout:		post
-title:		Install TinyOS 2.1.2 on Ubuntu 14.04.06
-category:	misc
-author:		Tiantian Li
+layout: post
+title: Install TinyOS 2.1.2 on Ubuntu 14.04.06
+category: misc
+author: Tiantian Li
 ---
 
 In this guide, a relatively old version of Ubuntu is used to demonstrate the installation process without having me to worry about historic issues. Good luck if you are going to use a modern Ubuntu or even another distro.
 
-## 1. Prerequisites
+## Prerequisites
 
-1. A fully functional virtual machine running on **Ubuntu 14.04.06** with **proper Internet connection**.
-2. A clear mind.
-3. Basic Linux skills.
+- A fully functional virtual machine running on **Ubuntu 14.04.06** with **proper Internet connection**.
+- A clear mind.
+- Basic Linux skills.
 
-## 2. Installation
+## Installation
 
 ### Set up Standford repository source
 
@@ -31,7 +31,7 @@ deb http://tinyos.stanford.edu/tinyos/dists/ubuntu lucid main
 
 Save and exit.
 
-### Install basic toolchains and TinyOS
+### Basic toolchains and TinyOS
 
 Install required packages:
 
@@ -66,7 +66,7 @@ If you don't want Java to later bitch about not finding appropriate JNI support:
 $ sudo tos-install-jni
 ```
 
-## 3. Compile TOSSIM for testing
+## Compile TOSSIM for testing
 
 ```shell
 $ cd $TOSROOT/apps/Blink
@@ -82,3 +82,9 @@ You should be able to see the following output:
 ```
 
 🎉🎉🎉
+
+## References
+
+- [TinyOS Documentation Wiki](http://tinyos.stanford.edu/tinyos-wiki/index.php/TinyOS_Documentation_Wiki)
+- [TOSSIM](http://tinyos.stanford.edu/tinyos-wiki/index.php/TOSSIM)
+
